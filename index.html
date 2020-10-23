@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPN Sos Vos</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Imagenes/Logo BPN celeste cortado.png">
+</head>
+<body> 
+    
+<header>
+    
+
+         <img src="Imagenes/Logo BPN celeste.png" alt="imagen">
+
+
+</header>
+
+
+<main>
+     <div class="imagen">
+
+            <img src="imagenes/content.png">
+       
+    </div>
+    
+
+    <div class="acceso">
+
+
+            
+            <h2> Inicia tu solicitud </h2>
+            <p>Completa los datos para armar tu plan:</p>
+       
+        <form class="form" action="" method="POST">
+            
+            <label>Tu CUIL/CUIT:<input name="cuil" type="text"></label>
+            <label for="genero"> Tu género:
+                <select name="genero" class="select-css">
+                    <option value="1">Selecciona una opcion</option>
+                    <option value="2">FEMENINO</option>
+                    <option value="3">MASCULINO</option>
+                
+            </select>
+            </label>
+            <label>Tu mail:<input name="email" type="email" ></label>
+            <label>Tu celular:<input name="celular" type="tel"></label> 
+            <label class="codigo1" for="codigo de area">Cod de Area + Num Ej: 1155546677</label>
+            <div class="condiciones">
+            
+                <input id="s" name="terminos" type="checkbox" checked>
+            
+                <label id="acepto" for="s">Acepto los <a href="./terminos.html" target="blanck" style="color: red;"> terminos y condiciones</a></label>
+            
+            </div>
+            <!--<button onclick="window.location.href='index1.html'" class="button" type="submit">Continuar</button>-->
+            <a href="./index1.html" class="button">Continuar</a>
+            
+        </form>
+    </div>
+    
+</main>
+
+
+<footer>
+
+    
+</footer>
+
+
+    <script src="App.js"></script>
+</body>
+</html>
