@@ -99,9 +99,11 @@ button{margin-top: 2em; font-size: 1.2em; height: 2.2em; color: #ffffff; border-
        border: 1px solid #ffffff;background: #007dbd; transition: all 1s;box-shadow: 8px 6px 10px #888888;
       margin-left: 6em;}
 button:hover{transform: scale(1.05,1.05);cursor: pointer;}
+.button1{margin-top: 2em; font-size: 1.2em; height: 2.2em; color: #ffffff; border-radius: 5px; 
+  border: 1px solid #ffffff;background: #007dbd; transition: all 1s;box-shadow: 8px 6px 10px #888888;}
+.button1:hover{transform: scale(1.05,1.05);cursor: pointer;}
 
-
-/*a.button {
+a.button1 {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -112,7 +114,7 @@ button:hover{transform: scale(1.05,1.05);cursor: pointer;}
   padding-top: 0.2em;
   font-size: 1.2em;
   font-weight: 600;
-}*/
+}
 
 
 /*--FORMULARIO INDEX1--*/
