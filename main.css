@@ -97,9 +97,9 @@ label{margin-top: 1em;font-size: 1em;color: #1a78af; font-weight: 600;}
 
 button{margin-top: 2em; font-size: 1.2em; height: 2.2em; color: #ffffff; border-radius: 5px; width:60% ; 
        border: 1px solid #ffffff;background: #007dbd; transition: all 1s;box-shadow: 8px 6px 10px #888888;
-      margin-left: 6em;}
+      margin-left: 5.5em; margin-bottom: 1em;}
 button:hover{transform: scale(1.05,1.05);cursor: pointer;}
-.button1{margin-top: 2em; font-size: 1.2em; height: 2.2em; color: #ffffff; border-radius: 5px; 
+.button1{margin-top: 2em;font-size: 1.2em; height: 2.2em; color: #ffffff; border-radius: 5px; 
   border: 1px solid #ffffff;background: #007dbd; transition: all 1s;box-shadow: 8px 6px 10px #888888;}
 .button1:hover{transform: scale(1.05,1.05);cursor: pointer;}
 
@@ -130,7 +130,7 @@ a.button1 {
   center; padding-top: 3em; width: 80%; margin:auto;}
 
 
-.eleccion {width: 92%; border: 1px solid #21aff1;height: 30em; display: grid; grid-template-rows: auto;
+.eleccion {width: 92%; border: 1px solid #21aff1;height: 28em; display: grid; grid-template-rows: auto;
    border-radius: 5px; box-shadow: 8px 8px 15px grey;}
 .eleccion h2{text-align: center; margin-top: 1em; color: #00467b;}
 .eleccion form {display: grid; grid-template-columns: 1fr 3fr; justify-content: space-between; 
@@ -140,7 +140,7 @@ a.button1 {
 .eleccion input { font-size: 0.8em; margin: 1em 0em ;}
 .eleccion .button {width: 60%; margin: auto;}
 
-.paquete {width: 92%; border: 1px solid #21aff1;height: 30em; display: grid; grid-template-rows: auto;
+.paquete {width: 92%; border: 1px solid #21aff1;height: 28em; display: grid; grid-template-rows:auto;
   border-radius: 5px; box-shadow: 8px 8px  15px grey;}
 .paquete h2{text-align: center; margin-top: 1em; color: #00467b;}
 .paquete .button {width: 60%; margin: auto;}
