@@ -122,7 +122,7 @@ a.button1 {
 .codigo {display: flex; flex-flow: column;justify-content: center; align-items: center; margin: auto; height: 10em;}
 .codigo label textarea {margin-top: 1em;padding-top: 1em;}
 .codigo label {text-align: center;}
-.codigo textarea {width: 60%; background-color:#85c8e9 ; text-align: center;}
+.codigo textarea {width: 60%; background-color:#dddddd ; text-align: center; font-size: 1.6em; color:#00467b; font-weight: 900;}
 
 /*--MAIN INDEX 2--*/
 
@@ -150,10 +150,11 @@ a.button1 {
 #modal {display: none;position: fixed; top: 0; left: 0; right: 0; bottom: 0;
   width: 80vw; height: 90vh; margin: auto; border:1px solid #21aff1; 
   border-radius: 5px; box-shadow: 8px 8px  15px grey;z-index: 1; overflow: auto;
-  background-color: rgba(255 ,255 ,255 , 0.98); transition: all 0.5s;}
+  background-color: rgba(255 ,255 ,255 , 0.98); transition: all 1s;}
 #contenido li {color:#1a78af ; margin-left: 5em; font-size: 1.2em;margin-top: 1em;}
 #contenido p{text-align: start; margin-top: 2em; color: #00467b; font-size: 1.4em; margin-left: 2em;margin-bottom: 2em;}
 #contenido h2{text-align: center; margin-top: 3em; color: #00467b;}
+
 
 /*--FOOTER--*/
 footer { clear: both;background: #667db6;  /* fallback for old browsers */
