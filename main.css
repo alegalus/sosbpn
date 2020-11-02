@@ -123,7 +123,7 @@ a.button1 {
 .codigo label textarea {margin-top: 1em;padding-top: 1em;}
 .codigo label {text-align: center;}
 .codigo textarea {width: 60%; background-color:#dddddd ; text-align: center; font-size: 1.6em; 
-  color:#00467b; font-weight: 900;padding: 0.3em; border-radius: 5px;}
+  color:#00467b; font-weight: 900;padding: 0.3em; border-radius: 5px; box-shadow: 3px 3px 10px grey;}
 
 /*--MAIN INDEX 2--*/
 
