@@ -171,10 +171,17 @@ footer p{padding: 0.5em 0em; font-weight: 900;}
 
 /* -------- 5. MEDIAQUERY -------- */
 
-@media screen and (max-width: 1920px){
+@media screen and (min-width: 1920px){
 header{height: 10em;}
 header img{ margin: 2em;}
 footer{height: 10em;}
+.eleccion {height: 60%;}
+.eleccion label { font-size: 1em; margin: 1em 0em ;}
+.eleccion input { font-size: 1em; margin: 1em 0em ;}
+.eleccion button {margin-bottom: 2em;}
+.paquete{height: 60%;}
+.paquete li{font-size: 1.2em;}
+.paquete button {margin-bottom: 2em;}
 }
 
 
